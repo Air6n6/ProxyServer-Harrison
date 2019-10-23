@@ -1,0 +1,8 @@
+#gallery {
+    position: absolute;
+}
+
+#reviews {
+    position: relative;
+    top: 315px;
+}
