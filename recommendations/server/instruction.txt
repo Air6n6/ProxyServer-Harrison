@@ -1,0 +1,8 @@
+If you are working on a media-centric widget: DO NOT SERVE YOUR MEDIA ASSETS FROM EXPRESS. Instead, transfer your media assets to S3
+Build a server that can serve an index.html file which then loads the app and renders it to the page (using react and webpack-dev [development] and webpack [production]).
+Build an API that the React component will use to fetch data based on an item's ID and/or name.
+Your server must be able to serve up the correct content by an item's ID and by that item's name
+Write tests to ensure your API works correctly and your component(s) render correctly
+Jest will help you measure code coverage of your tests.
+React using Styled Components or CSS Modules
+You must style your components use Style Components or CSS Modules

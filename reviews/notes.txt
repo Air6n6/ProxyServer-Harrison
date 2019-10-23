@@ -1,0 +1,3 @@
+map each rating
+reduce it for the total
+divide by 100
